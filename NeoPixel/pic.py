@@ -10,4 +10,4 @@ input=onion
 
 for i in range(64):
     payload={'led':i,'R':int(input[3*i]),'G':int(input[3*i+1]),'B':int(input[3*i+2])}
-    requests.post("https://api.onion.io/v2/devices/k06S2TfU/set",data=payload)
+    requests.post("https://api.onion.io/v2/devices/kfItpX9p/set",data=payload)
